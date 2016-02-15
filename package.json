@@ -1,0 +1,39 @@
+{
+  "name": "woowa_templates_v1",
+  "version": "1.0.0",
+  "description": "1. node.js 설치 2. harp.js 설치 3. npm install --global gulp 4. npm install --save-dev gulp (개발폴더 내)",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "del": "^2.2.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-concat-css": "^2.2.0",
+    "gulp-copy": "0.0.2",
+    "gulp-csslint": "^0.2.0",
+    "gulp-html-prettify": "0.0.1",
+    "gulp-if": "^2.0.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-less": "^3.0.5",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.2.0",
+    "gulp-uglify": "^1.5.2",
+    "gulp-uglifycss": "^1.0.5",
+    "jshint": "^2.9.1",
+    "jshint-stylish": "^2.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kate-ez/templates.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kate-ez/templates/issues"
+  },
+  "homepage": "https://github.com/kate-ez/templates#readme"
+}
