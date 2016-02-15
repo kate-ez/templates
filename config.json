@@ -13,13 +13,13 @@
       "src" : "src/css/**/*.css",
       "dest" : "dist/static/app/css/",
       "filename" : "style.css",
-      "import" : "false"
+      "import" : false
     },
     "js" : {
       "src" : "src/js/**/*.js",
       "dest" : "dist/static/app/js/",
       "filename" : "app-ui.js",
-      "mangle" : "true",
+      "mangle" : true,
       "preserveComments" : "some"
     },
     "jade" : {
