@@ -1,0 +1,38 @@
+{
+  "sass" : true,
+  "less" : false,
+  "jade" : false,
+  "html" : true,
+
+  "path" : {
+    "styles" : {
+      "src" : ["src/styles/**/*.{scss,sass,less}","!src/styles/**/_*.{scss,sass,less}"],
+      "dest" : "src/css/"
+    },
+    "css" : {
+      "src" : "src/css/**/*.css",
+      "dest" : "dist/static/app/css/",
+      "filename" : "style.css",
+      "import" : "false"
+    },
+    "js" : {
+      "src" : "src/js/**/*.js",
+      "dest" : "dist/static/app/js/",
+      "filename" : "app-ui.js",
+      "mangle" : "true",
+      "preserveComments" : "some"
+    },
+    "jade" : {
+      "src" : ["src/jade/**/*.jade","!src/jade/**/_*.jade"],
+      "dest" : "dist/"
+    },
+    "images" : {
+      "src" : "src/img/**/*",
+      "dest" : "dist/static/app/img/"
+    },
+    "html" : {
+      "src" : "src/html/**/*.html",
+      "dest" : "dist/"
+    }
+  }
+}
